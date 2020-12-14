@@ -13,5 +13,5 @@ export default (selector, falseCase) => {
      */
     const ms = 10000;
 
-    $(selector).waitForDisplayed(ms, !!falseCase);
+    $(selector).waitForDisplayed(ms, falseCase);
 };
